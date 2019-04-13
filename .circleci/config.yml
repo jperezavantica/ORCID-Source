@@ -38,4 +38,4 @@ jobs:
           key: v1-dependencies-{{ checksum "pom.xml" }}
 
       # run tests! following now
-      - run: mvn -f orcid-core/pom.xml package
+      - run: mvn -f orcid-model/pom.xml package
