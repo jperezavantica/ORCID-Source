@@ -37,5 +37,5 @@ jobs:
             - ~/.m2
           key: v1-dependencies-{{ checksum "pom.xml" }}
 
-      # run tests! following now
+      # run tests! following now triggering
       - run: mvn -f orcid-test/pom.xml test
