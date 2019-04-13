@@ -39,4 +39,3 @@ jobs:
 
       # run tests! following now
       - run: mvn -f orcid-test/pom.xml package
-      - run: mvn -f orcid-model/pom.xml package
